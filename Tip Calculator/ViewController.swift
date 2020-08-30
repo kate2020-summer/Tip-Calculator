@@ -9,13 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var billAmountTextField: UITextField!
+    @IBOutlet weak var splitNumTextField: UITextField!
+    @IBOutlet weak var tipsLabel: UILabel!
+    @IBOutlet weak var tipPercentageLabel: UILabel!
+    @IBOutlet weak var perPersonLabel: UILabel!
+    @IBOutlet weak var totalLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    //test test
-    // test2
+    
 
 
 }
