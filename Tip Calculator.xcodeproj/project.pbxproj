@@ -16,6 +16,7 @@
 		66680F0124FC48CD00FA20D6 /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66680F0024FC48CD00FA20D6 /* Tip_CalculatorTests.swift */; };
 		66680F0C24FC48CD00FA20D6 /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66680F0B24FC48CD00FA20D6 /* Tip_CalculatorUITests.swift */; };
 		66680F1A24FC53F700FA20D6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66680F1924FC53F700FA20D6 /* SettingViewController.swift */; };
+		66680F1C24FC63EB00FA20D6 /* record_screen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66680F1B24FC63EB00FA20D6 /* record_screen.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		66680F0B24FC48CD00FA20D6 /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		66680F0D24FC48CD00FA20D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66680F1924FC53F700FA20D6 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		66680F1B24FC63EB00FA20D6 /* record_screen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = record_screen.gif; path = ../record_screen.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		66680EDD24FC48CB00FA20D6 = {
 			isa = PBXGroup;
 			children = (
+				66680F1B24FC63EB00FA20D6 /* record_screen.gif */,
 				66680EE824FC48CB00FA20D6 /* Tip Calculator */,
 				66680EFF24FC48CD00FA20D6 /* Tip CalculatorTests */,
 				66680F0A24FC48CD00FA20D6 /* Tip CalculatorUITests */,
@@ -238,6 +241,7 @@
 				66680EF624FC48CD00FA20D6 /* LaunchScreen.storyboard in Resources */,
 				66680EF324FC48CD00FA20D6 /* Assets.xcassets in Resources */,
 				66680EF124FC48CB00FA20D6 /* Main.storyboard in Resources */,
+				66680F1C24FC63EB00FA20D6 /* record_screen.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
