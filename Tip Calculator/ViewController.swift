@@ -22,7 +22,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-
+    var bill = 0.0
+    @IBAction func billAmount(_ sender: Any) {
+        bill = Double(billAmountTextField.text!) ?? 0.0
+    }
+    var count = 1
+    @IBAction func splitNum(_ sender: Any) {
+        count = Int(splitNumTextField.text!) ?? 1
+    }
+    
+    @IBAction func tipCalculate(_ sender: UISlider) {
+        let tipPercentage = Int(sender.value)
+        let tips = bill * Double(tipPercentage) / 100.00
+        let total = bill + tips
+        let per = total/Double(count)
+        tipPercentageLabel.text = String("\(tipPercentage)%")
+        tipsLabel.text = String(format: "$%.2f",tips)
+        totalLabel.text = String(format: "$%.2f",total)
+        perPersonLabel.text = String(format: "$%.2f",per)
+        
+    }
+    
 }
 
